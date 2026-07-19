@@ -139,6 +139,18 @@ try {
     } else {
         Add-ValidationResult ERROR "Configured packaging tool does not exist: $packagingTool"
     }
+
+    foreach ($toolKey in @('GMaxExecutable', 'RenXExecutable', 'LevelEditorExecutable', 'W3DViewerExecutable')) {
+        $toolRaw = Get-ConfigValue $config 'Tools' $toolKey
+        $toolPath = Resolve-ConfigPath $config $toolRaw
+        if ($null -eq $toolPath) {
+            Add-ValidationResult WARN "Mapping tool is not configured: [Tools] $toolKey"
+        } elseif (Test-Path -LiteralPath $toolPath -PathType Leaf) {
+            Add-ValidationResult OK "Configured mapping tool exists: $toolKey = $toolPath"
+        } else {
+            Add-ValidationResult ERROR "Configured mapping tool does not exist: $toolKey = $toolPath"
+        }
+    }
 } catch {
     Add-ValidationResult ERROR $_.Exception.Message
 }

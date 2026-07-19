@@ -2,7 +2,7 @@
 
 | ID | Status | Area | Description | Workaround |
 |---|---|---|---|---|
-| KI-001 | In progress | Setup | Renegade client and FDS paths are configured locally; GMax, RenX, W3D Viewer, and LevelEdit project paths remain incomplete. | Install the missing tools and finish `config/map-build.ini`. |
+| KI-001 | In progress | Setup | Renegade client, FDS, GMax, RenX, LevelEditor, and W3D Viewer are configured locally; LevelEdit project output remains incomplete. | Create the test mod package and finish its output path. |
 | KI-002 | Expected | Content | No RenX, W3D, texture, or LevelEdit map content exists yet. | Complete toolchain setup, then begin the approved terrain milestone. |
 | KI-003 | Open | Packaging | No verified MIX packaging integration has been supplied. | Use the generated staging directory and an approved manual packaging workflow. |
 | KI-004 | Investigate | Compatibility | The brief targets Dragonade 1.11.1, while inspected server binaries report `Scripts.dll` 1.11.0 and `da.dll` 1.10.8. | Confirm the intended DA deployment and upgrade path before compatibility testing or replacing any server files. |
