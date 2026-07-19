@@ -6,6 +6,7 @@ All notable project changes are recorded here.
 
 - Verified the existing Steam client, bundled LevelEditor, and Dragonade FDS paths.
 - Installed and configured GMax, RenX, and W3D Viewer, and added explicit mapping-tool configuration checks.
+- Corrected the user-level Renegade installation registry path and created the `C&C_OnOeS_Test` LevelEditor package.
 - Recorded the observed Dragonade version mismatch for investigation.
 
 ## [v0.1] - 2026-07-19

@@ -10,12 +10,12 @@ Record completion dates and notes next to each item. Do not copy tool installati
 - [ ] Confirm Dragonade 1.11.1 in the local FDS environment.
 - [x] Find the Renegade client directory and its `Data` directory (verified 2026-07-19).
 - [x] Find the local FDS directory and its data directory (verified 2026-07-19).
-- [ ] Create a new LevelEdit mod package named for `C&C_OnOeS_Test`.
+- [x] Create a new LevelEdit mod package named for `C&C_OnOeS_Test` (verified 2026-07-19).
 - [ ] Create a simple test object in RenX and export it to W3D.
 - [ ] Open that W3D in W3D Viewer and confirm materials and geometry.
 - [ ] Import the test asset into LevelEdit and save the project output.
 - [ ] Copy `config/map-build.example.ini` to `config/map-build.ini`.
-- [ ] Record every applicable local path in `map-build.ini` (client, FDS, and installed tools recorded; LevelEdit project output remains).
+- [x] Record every applicable local path in `map-build.ini` (verified 2026-07-19).
 - [ ] Run `ValidateMap.ps1 -VerboseOutput` and resolve every error.
 
 Never edit original game or tool files in place. Keep map source and generated output within this repository, and deploy copies to game folders only through the build script.
