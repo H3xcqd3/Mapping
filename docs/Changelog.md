@@ -4,6 +4,20 @@ All notable project changes are recorded here.
 
 ## [Unreleased]
 
+- Selected 450 by 320 W3D units as the v0.3 expansion target after the v0.2 scale study showed that 300 by 220 would become compact once each team has four or five buildings and vehicle infrastructure.
+
+## [v0.2] - 2026-07-19
+
+- Built the east-west Three-Lane Valley terrain study at 300 by 220 W3D units with two vehicle lanes, a contested centre route, ramps, segmented banks, and perimeter walls.
+- Added four nonfunctional building-scale proxies to judge base footprint, sightlines, and travel distance.
+- Added dedicated GDI and Nod startup spawners on the west and east base pads, replacing the obstructed fallback spawn at world origin.
+- Verified `ONO_ValleyB.W3D` at 256 triangles and 208 exported vertices with physical, projectile, and camera collision flags.
+- Exported a 28,304-byte MIX, passed 27 automated checks with zero errors, and deployed it to the Steam client and Dragonade FDS with backups.
+- Passed live GDI and Nod spawn, full-map infantry traversal, terrain collision, ramp, lane, and boundary smoke tests without falling through the map.
+- Concluded that the terrain should grow rather than shrink when real buildings and vehicle infrastructure replace the scale proxies.
+
+## [v0.1.1] - 2026-07-19
+
 - Verified the existing Steam client, bundled LevelEditor, and Dragonade FDS paths.
 - Installed and configured GMax, RenX, and W3D Viewer, and added explicit mapping-tool configuration checks.
 - Corrected the user-level Renegade installation registry path and created the `C&C_OnOeS_Test` LevelEditor package.

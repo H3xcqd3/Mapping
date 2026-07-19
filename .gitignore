@@ -18,6 +18,7 @@ tmp/**
 source/level_edit/**/*.bak
 source/level_edit/**/*.tmp
 source/level_edit/**/*~
+source/level_edit/output/*.mix
 
 # Generated W3D Dump reports
 export/w3d/*.w3d.txt
