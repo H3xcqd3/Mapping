@@ -9,6 +9,7 @@ All notable project changes are recorded here.
 - Corrected the user-level Renegade installation registry path and created the `C&C_OnOeS_Test` LevelEditor package.
 - Exported and verified the first RenX toolchain asset, `ONO_TestBox.w3d`, including its mesh and hierarchy.
 - Switched model inspection to W3D Hub Viewer 1.9.0 after the legacy viewer produced a blank viewport, and documented the 15-character W3D identifier limit.
+- Installed Tiberian Technologies LevelEdit 4.8.4 side-by-side, imported `ONO_TestBox`, and saved the first `.lvl/.lsd/.ldd/.ddb` project set.
 - Recorded the observed Dragonade version mismatch for investigation.
 
 ## [v0.1] - 2026-07-19

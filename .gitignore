@@ -19,6 +19,9 @@ source/level_edit/**/*.bak
 source/level_edit/**/*.tmp
 source/level_edit/**/*~
 
+# Generated W3D Dump reports
+export/w3d/*.w3d.txt
+
 # Tool and game installations must never be committed
 tools/vendor/**
 *.exe

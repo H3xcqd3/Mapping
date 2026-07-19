@@ -2,10 +2,10 @@
 
 ## Current: v0.1 Toolchain
 
-- [ ] Configure local paths in `config/map-build.ini`.
+- [x] Configure local paths in `config/map-build.ini`.
 - [ ] Complete `TOOLCHAIN_SETUP.md`.
-- [ ] Perform a minimal RenX to W3D export.
-- [ ] Create the LevelEdit mod package and test output.
+- [x] Perform a minimal RenX to W3D export.
+- [x] Create the LevelEdit mod package and test output.
 - [ ] Run validation with no errors.
 
 ## Next: v0.2 Terrain
