@@ -1,0 +1,31 @@
+# User-specific configuration
+config/map-build.ini
+
+# Generated output
+backups/**
+logs/**
+package/**
+releases/**
+tmp/**
+
+# Preserve empty generated directories
+!backups/.gitkeep
+!logs/.gitkeep
+!package/.gitkeep
+!releases/.gitkeep
+
+# LevelEdit temporary and backup files
+source/level_edit/**/*.bak
+source/level_edit/**/*.tmp
+source/level_edit/**/*~
+
+# Tool and game installations must never be committed
+tools/vendor/**
+*.exe
+*.dll
+
+# Common editor and OS files
+.vs/
+.vscode/
+Thumbs.db
+Desktop.ini
