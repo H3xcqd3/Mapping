@@ -2,8 +2,8 @@
 
 Record the build identifier, environment, tester, result, and defect link for every run.
 
-- [ ] Client loads the map without errors.
-- [ ] Dedicated server loads the map without errors.
+- [x] Client loads the map without errors. Verified with the deployed toolchain test package on 2026-07-19.
+- [x] Dedicated server loads the map without errors. FDS logged `Level C&C_OnOeS_Test.mix Loaded OK` on 2026-07-19.
 - [ ] GDI players spawn correctly.
 - [ ] Nod players spawn correctly.
 - [ ] Characters can be purchased.
@@ -17,6 +17,6 @@ Record the build identifier, environment, tester, result, and defect link for ev
 - [ ] Players and vehicles do not fall through terrain.
 - [ ] No textures are missing.
 - [ ] Server logs contain no map-related errors.
-- [ ] The map is compatible with Scripts 4.8.4.
+- [x] The map is compatible with Scripts 4.8.4 for the current toolchain smoke test (verified 2026-07-19).
 - [ ] The map is compatible with Dragonade 1.11.1.
 - [ ] A two-player team-balance smoke test passes.
