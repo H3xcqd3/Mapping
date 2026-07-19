@@ -83,6 +83,11 @@ try {
     } else {
         Add-ValidationResult ERROR 'No exported W3D files were found.'
     }
+    foreach ($file in $w3dFiles) {
+        if ($file.BaseName.Length -gt 15) {
+            Add-ValidationResult ERROR "W3D filename exceeds the 15-character identifier limit: $($file.Name)"
+        }
+    }
 
     $textureFiles = @()
     if ($null -ne $resolvedPaths.ExportTextures -and (Test-Path -LiteralPath $resolvedPaths.ExportTextures -PathType Container)) {
