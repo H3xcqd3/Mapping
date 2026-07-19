@@ -16,6 +16,6 @@ Record completion dates and notes next to each item. Do not copy tool installati
 - [x] Import `ONO_TestBox.w3d` as a Terrain preset, place one instance, and save the four-file LevelEdit project output (verified 2026-07-19).
 - [x] Copy `config/map-build.example.ini` to `config/map-build.ini` (verified 2026-07-19).
 - [x] Record every applicable local path in `map-build.ini` (verified 2026-07-19).
-- [ ] Run `ValidateMap.ps1 -VerboseOutput` and resolve every error.
+- [x] Run `ValidateMap.ps1 -VerboseOutput` and resolve every error (27 checks passed with 0 errors on 2026-07-19).
 
 Never edit original game or tool files in place. Keep map source and generated output within this repository, and deploy copies to game folders only through the build script.

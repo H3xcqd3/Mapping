@@ -6,7 +6,7 @@
 - [ ] Complete `TOOLCHAIN_SETUP.md`.
 - [x] Perform a minimal RenX to W3D export.
 - [x] Create the LevelEdit mod package and test output.
-- [ ] Run validation with no errors.
+- [x] Run validation with no errors.
 
 ## Next: v0.2 Terrain
 
